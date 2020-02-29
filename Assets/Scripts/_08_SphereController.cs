@@ -17,12 +17,8 @@ public class _08_SphereController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
-        //Sphere_01.GetComponent<Rigidbody>().useGravity = true;
-        //_CollisionSphere_01.useGravity = true;
+    { 
 
-
-        if (Input.GetKeyDown(KeyCode.Space))
         {
             Sphere_01.GetComponent<Rigidbody>().useGravity = true;
             Debug.Log("Words...");
@@ -47,7 +43,6 @@ public class _08_SphereController : MonoBehaviour
             Sphere_03.GetComponent<Renderer>().material.color = new Vector4(0, 1, 0, 0);
             Debug.Log("Final Words...");
         }
-
 
     }
 
