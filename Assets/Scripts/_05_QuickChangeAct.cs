@@ -35,6 +35,8 @@ public class _05_QuickChangeAct : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+
+        //Player playerTest = other.transform.GetComponent<Player>();
         this.GetComponent<Renderer>().material.color = new Vector4(Random.Range(0f,1f), Random.Range(0f, 1f), Random.Range(0f, 1f), 0);
     }
 }
