@@ -28,7 +28,7 @@ public class _07_PlayerStats : MonoBehaviour
     //    Debug.Log(_playerManager.playerName.ToString());
 
 
-    //    //_PlayerNameText
+    //    _PlayerNameText
 
     //    _PlayerNameText.text = "Player Name :" + _playerManager.playerName;
     //    _AttackLevelText.text = "Attack Lvl :" + _playerManager.attackLevel;
