@@ -24,6 +24,7 @@ public class _21_AntiGravity : MonoBehaviour
             //}
         }
     }
+   
 
     void OnCollisionEnter(Collision collision)
     {
@@ -55,3 +56,5 @@ public class _21_AntiGravity : MonoBehaviour
         }
     }
 }
+
+
